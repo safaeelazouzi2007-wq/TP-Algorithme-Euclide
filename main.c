@@ -1,25 +1,23 @@
 #include <stdio.h>
 
 int main() {
-    int a, b, r;
+    int a, b, reste;
 
-    printf("=== Algorithme d'Euclide ===\n");
-    printf("Entrez le premier entier : ");
-    scanf("%d", &a);
-    printf("Entrez le deuxième entier : ");
-    scanf("%d", &b);
+    // Demander à l'utilisateur d'entrer deux entiers
+    printf("Entrez deux entiers : ");
+    scanf("%d %d", &a, &b);
 
-    int x = a, y = b;
-
-    printf("\nÉtapes du calcul :\n");
+    // Algorithme d’Euclide pour calculer le PGCD
+    // Tant que le reste n'est pas nul, on continue les divisions
     while (b != 0) {
-        r = a % b;
-        printf("%d = %d * (%d) + %d\n", a, b, a / b, r);
-        a = b;
-        b = r;
+        reste = a % b;  // Calcul du reste de la division
+        printf("%d = %d × (%d) + %d\n", a, b, a / b, reste);  // Afficher les étapes
+        a = b;  // On remplace a par b
+        b = reste;  // On remplace b par le reste
     }
 
-    printf("\nLe PGCD(%d, %d) = %d\n", x, y, a);
+    // Quand b devient 0, le PGCD est a
+    printf("Le PGCD est : %d\n", a);
 
-    return 0;
+    return 0; // Fin du programme
 }
