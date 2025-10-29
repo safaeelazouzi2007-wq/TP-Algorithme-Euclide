@@ -1,0 +1,12 @@
+Exemple 1:
+Calcul du PGCD(48, 18) manuellement:
+48 = 18 * 2 + 12
+18 = 12 * 1 + 6
+12 = 6 * 2 + 0
+PGCD = 6
+
+Exemple 2:
+PGCD(56, 42):
+56 = 42 * 1 + 14
+42 = 14 * 3 + 0
+PGCD = 14
