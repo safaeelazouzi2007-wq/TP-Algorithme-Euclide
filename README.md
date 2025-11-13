@@ -72,6 +72,9 @@ Solution générale : (x, y) = (1 + 3k, 0 - 2k), k ∈ Z
 
 
 👩‍💻 Auteur
+
 Projet réalisé par Safae Elazouzi
+
 Module :math (Algèbre)
+
 NIVEAU DUT: — Génie Logiciel — EST
