@@ -27,7 +27,7 @@ L’algorithme d’Euclide est très efficace.
 Il nécessite peu d’opérations et donne le résultat rapidement, même pour de grands nombres.
 
 
-# Traveaux pratiques:Équations Diophantiennes Linéaires
+# Traveaux pratiques : Équations Diophantiennes Linéaires
 🎯 Objectif
 
 Ce TP a pour but de déterminer toutes les solutions entières (x, y) de l’équation :
@@ -69,6 +69,8 @@ pgcd(12, 18) = 6
 
 Solution particulière : (xp, yp) = (1, 0)
 Solution générale : (x, y) = (1 + 3k, 0 - 2k), k ∈ Z
+
+
 👩‍💻 Auteur
 Projet réalisé par Safae Elazouzi
 Module :math (Algèbre)
