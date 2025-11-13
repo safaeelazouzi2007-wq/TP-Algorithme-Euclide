@@ -12,7 +12,6 @@ PGCD(56, 42):
 42 = 14 * 3 + 0
 PGCD = 14
 
-
 Les exemples DES ÉQUATION DIOPHANTIENNE LINÉAIRE :
 Forme : a*x + b*y = c
 
@@ -32,4 +31,5 @@ x = -1 + (8/4)k
 y = 2 - (12/4)k
 avec k ∈ Z
 Programme terminé avec succès ✅
+
 
